@@ -4,15 +4,20 @@ document.querySelectorAll('a').forEach(link => {
       event.preventDefault();
 
       switch (this.id) {
-        case 'sales':
-            console.log("a")
-          iframe.src = 'https://clusterdesign.cloud.looker.com/embed/dashboards/93';
+        case 'dre':
+          iframe.src = 'https://servopa.cloud.looker.com/dashboards/33';
           break;
-        case 'logistic':
-          iframe.src = 'https://clusterdesign.cloud.looker.com/embed/dashboards/92?';
+        case 'balanco':
+          iframe.src = 'https://servopa.cloud.looker.com/dashboards/32';
           break;
-        case 'user':
-          iframe.src = 'https://clusterdesign.cloud.looker.com/embed/dashboards/94?';
+        case 'caixa':
+          iframe.src = 'https://servopa.cloud.looker.com/dashboards/34';
+          break;
+        case 'ngc':
+          iframe.src = 'https://servopa.cloud.looker.com/dashboards/35';
+          break;
+        case 'indicadores':
+          iframe.src = 'https://servopa.cloud.looker.com/dashboards/38';
           break;
         default:
           console.log('Link não encontrado');
